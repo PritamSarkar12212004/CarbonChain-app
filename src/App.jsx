@@ -37,6 +37,7 @@ function App() {
       setIsLoggedIn(false);
     }
   };
+  
   useEffect(() => {
     AuthFinder();
   }, [isLoggedIn]);

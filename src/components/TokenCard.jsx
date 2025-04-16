@@ -127,7 +127,7 @@ const TokenCard = ({
         {token.imageUrl && (
           <div className="mt-3 h-32 w-full overflow-hidden rounded-md">
             <img 
-              src={token.imageUrl || "/placeholder.svg"} 
+              src={"https://www.shutterstock.com/image-illustration/mockup-3d-logo-facade-sign-600nw-2046330740.jpg"} 
               alt={token.companyName} 
               className="h-full w-full object-cover"
             />
